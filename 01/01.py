@@ -16,7 +16,7 @@ def InputNumbers(inputText):
     return number
 
 
-def CheckNumber(day):
+def CheckDaysOfWeek(day):
     if day < 1 or day > 7:
         print('Введите число, соответствующее дню недели')
     elif day == 6 or day == 7:
@@ -25,4 +25,4 @@ def CheckNumber(day):
         print('Будний день...')
 
 day = InputNumbers('Введите цифру, обозначающую день недели: ')
-CheckNumber(day)
+CheckDaysOfWeek(day)

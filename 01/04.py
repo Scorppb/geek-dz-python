@@ -11,7 +11,7 @@ def InputNumbers(inputText):
             print('Введите корректные данные')
     return number
 
-def CheckNumber(number):
+def CheckCoordinatesPoints(number):
     if number < 1 or number > 4:
         print('Введите число, соответствующее четверти системы координат')
     elif number == 1:
@@ -24,4 +24,4 @@ def CheckNumber(number):
         print('x > 0, y < 0')
 
 number = InputNumbers('Введите номер четверти системы координат: ')
-CheckNumber(number)
+CheckCoordinatesPoints(number)
