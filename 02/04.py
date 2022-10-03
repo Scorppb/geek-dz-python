@@ -4,7 +4,7 @@
 
 from random import randint
 
-with open('Mult_task.txt', 'w') as data:
+with open('file.txt', 'w') as data:
     data.write('0\n')
     data.write('1\n')
     data.write('5\n')
@@ -26,7 +26,7 @@ def get_mult(numbers, datalist):
         mult *= numbers[i]
     return mult
 
-path = 'Mult_task.txt'
+path = 'file.txt'
 n = 10 
 datalist = get_data_from_file(path)
 numbers = get_numbers(n)
