@@ -5,7 +5,7 @@
 
 import random
 
-list = ['Веселый пианист', 250, 3.14, 'True ']
-print(list) 
-random.shuffle(list)
-print('Результат перемешивания', list) 
+my_list = ['Веселый пианист', 250, 3.14, 'True ']
+print(my_list) 
+random.shuffle(my_list)
+print('Результат перемешивания', my_list) 
