@@ -5,5 +5,5 @@
 
 number_list = [1.1, 1.2, 3.1, 5, 10.01] 
 new_list = [(num % 1) for num in number_list if isinstance(num, float)]
-print(max(new_list) - min(new_list))
+print(round(max(new_list) - min(new_list),2))
 
